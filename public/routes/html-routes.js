@@ -9,12 +9,15 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "../assets/index.html"));
   });
 
-  app.get("/home", function(req, res) {
+  app.get("/portfolio", function(req, res) {
     res.sendFile(path.join(__dirname, "../assets/portfolio.html"));
   });
 
- 
-  
+  app.get("/contact", (red, res) => {
+    res.sendFile(path.join(__dirname, "../assets/contact.html"))
+  })
+
+  // If no matching route is found default to home
   app.get("*", function(req, res) {
     res.sendFile(path.join(__dirname, "../assets/index.html"));
   });
