@@ -2,7 +2,7 @@
 
 ## My Portfolio
 
-## Link to the deployed application
+## Link to My Portfolio
 -   [My Portfolio](https://stark-mesa-29665.herokuapp.com/)
 ## Getting Started 
 Once you arrive at my page feel free to browse around. 
@@ -27,6 +27,6 @@ As an aspiring full stack developer its important to provide potential recruiter
 - CSS
 - GitHub - hosts repository
 - Heroku - to host the application and the database
-## Contributors
+## Contributor
 - [Alex Aguirrebena](https://github.com/Anotherarod)
 
